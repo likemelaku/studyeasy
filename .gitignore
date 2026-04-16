@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Production build (regenerate with npm run build)
+dist/
+
+# Secrets — never commit real keys (use .env.example as template)
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
